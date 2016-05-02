@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/index.js"
+    "start": "./node_modules/.bin/kcl-bootstrap -j /usr/bin/java -e -p app/consumer.properties"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-kcl": "^0.5.0"
+    "aws-kcl": "^0.5.0",
+    "log4js": "^0.6.35"
   }
 }
