@@ -1,3 +1,6 @@
+#AWS_Kinesis
+
+![Alt text](/.images/Kinesis.png?raw=true "Kinesis")
 #Prerequisite
  Firstly, you need to make sure that the nodejs(upper than 5.7) is available in you laptop.
  
